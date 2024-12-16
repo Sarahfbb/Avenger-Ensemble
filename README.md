@@ -29,6 +29,8 @@ This is an example implementation file that shows how to put all the pieces toge
 The script particularly focuses on ensemble methods, showing how to load multiple models, get their predictions, and combine them for more effective attacks. It also includes proper result saving and metric calculation, making it a good template for implementing similar systems.
 
 
+## main
+The genetic algorithm implementation in genetic_algorithm.py represents the core of the Evolutionary Avenger Initiative (EAI), which optimizes ensemble selection through evolutionary principles. The main function evolutionary_algorithm manages the entire process, starting with a random population of model ensembles and evolving them over multiple generations. It uses tournament selection (tournament_selection) to choose parent ensembles, combines them through crossover operations (crossover), and introduces variations through mutation (mutation). The algorithm features adaptive rates that adjust based on population diversity, with mutation rate increasing when diversity is low and crossover rate increasing when diversity is high. Two fitness functions are available: "ge_ntge" (combining Guessing Entropy and Number of Traces to achieve Guessing Entropy of 0) and "val_loss" (using validation loss). The code maintains the best-performing ensemble throughout evolution and includes elitism by preserving the best solution. Configuration parameters like population size, number of generations, mutation rate, and number of models per ensemble can be adjusted. The algorithm automatically saves progress and results, making it easy to track experiments and ensure reproducibility.
 
 ## Citation
 If you find this code useful in your research, please consider citing:
