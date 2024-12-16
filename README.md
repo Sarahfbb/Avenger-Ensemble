@@ -1,6 +1,6 @@
 # Evolutionary Avenger Initiative (EAI) to generate a best-performing ensemble : Avenger Ensemble
 
-This repository developed for the paper [Genetic Algorithm-Driven Ensemble Selection for Deep Learning-based Side-Channel Analysis](https://sprint.iacr.org/2024/1949)
+This repository developed for the paper [Genetic Algorithm-Driven Ensemble Selection for Deep Learning-based Side-Channel Analysis]
 
 We proposed a new genetic algorithm-driven ensemble selection algorithm called `Evolutionary Avenger Initiative (EAI)` to generate a best-performing ensemble:Avenger Ensemble. To the best of our knowledge, this is the first work to investigate ensemble selection within the context of SCA.
 
