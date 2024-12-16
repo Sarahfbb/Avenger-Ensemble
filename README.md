@@ -38,11 +38,3 @@ The genetic algorithm implementation in `genetic_algorithm.py` represents the co
 ## Citation
 If you find this code useful in your research, please consider citing:
 
-```bibtex
-@misc{cryptoeprint:2024/1949,
-      author = {Zhao Minghui and Trevor Yap},
-      title = {Avenger Ensemble: Genetic Algorithm-Driven Ensemble Selection for Deep Learning-based Side-Channel Analysis},
-      howpublished = {Cryptology {ePrint} Archive, Paper 2024/1949},
-      year = {2024},
-      url = {https://eprint.iacr.org/2024/1949}
-}
