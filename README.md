@@ -2,7 +2,7 @@
 
 This repository developed for the paper [Genetic Algorithm-Driven Ensemble Selection for Deep Learning-based Side-Channel Analysis](https://sprint.iacr.org/2024/1949)
 
-We proposed a new genetic algorithm-driven ensemble selection algorithm called `Evolutionary Avenger Initiative (EAI)` to generate a best-performing ensemble. To the best of our knowledge, this is the first work to investigate ensemble selection within the context of SCA.
+We proposed a new genetic algorithm-driven ensemble selection algorithm called `Evolutionary Avenger Initiative (EAI)` to generate a best-performing ensemble:Avenger Ensemble. To the best of our knowledge, this is the first work to investigate ensemble selection within the context of SCA.
 
 ## dataloader.py
 The `Custom_Dataset` class is the heart of the data loading system, inheriting from PyTorch's `Dataset` class to handle various side-channel analysis datasets. When initialized, it takes parameters like the dataset type (`Chipwhisperer`, `ASCAD`, etc.), leakage model, and which byte to target. It's capable of handling multiple dataset formats and automatically applies the right preprocessing steps for each one.
